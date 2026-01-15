@@ -44,9 +44,9 @@ if select == 2:
         elif percentage <40:
             print("You got Fail")
         else:
-            print("Invalid Input")
+            print("Invalid Input by percentage")
     else:
-        print("Inavlid Input")
+        print("Inavlid Input by Method")
 else:
-    print("Inavlid Input")
+    print("Inavlid Input by selection")
     
