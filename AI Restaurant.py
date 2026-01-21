@@ -1,24 +1,24 @@
 print("***Welcome to AI Restaurant")
 name = input("Enter your Name: ")
-budget = aval(input("Enter Your Budget: "))
-cusine = int(input(f"Dear {name}, \n Select Anyone From Below! \n1. Pakistani \n2. Chinese \n3.Italian \n4. Korean \n5.Thai \n6. Don't know, Suggest something special: ")
+cusine = int(input(f"Dear {name}, \n Select Anyone From Below! \n1. Pakistani \n2. Chinese \n3.Italian \n4. Korean \n5.Thai \n6. Don't know, Suggest something special: "))
              
-if cusine == 1:
+if cusine == 1 :
     print("Welcome to Pakistani Cuisine")
+    budget = eval(input("Enter Your Budget: "))
     if budget >= 10000:
         fav = int(input(f"Dear {name}, \nWhat do you like most in normal days? \n1. Biryani \n2. Karahi \n3. Creamy Handi \n4. BBQ \n5. All of the above: "))
-        if fav == 1:
+        if fav == 1 :
              bill=8500
              r_amount = budget-bill
              print(f"Dear {name}, \nHave your special Mandi platter with Shamas Special Dumpukht! Along with jumbo Drink + 4 Yakhni Bowls + Raita + Special Salad. \n Your Total Bill is Rs:8500/- (Including Tax)")
              meetha = int(input((f"Dear {name}, Do you want sweet? As the remaining Amount is {r_amount} \n1. Kunafa \n2. Chocolate  Tart \n3. Suggest Something"))
-             if meetha == 1:
-                          bill2 = 500:
+             if meetha == 1 :
+                          bill2 = 500
                           print(f"Here is Your Sweet (Kunafah) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount- bill2}")
-             elif meetha == 2:
-                          bill2 = 1000:
+             elif meetha == 2 :
+                          bill2 = 1000
                           print(f"Here is Your Sweet (Chocolate Tart) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
-             elif meetha == 3:
+             elif meetha == 3 :
                           bill2 = 850:
                           print(f"Here is the recommended Sweet (Kunafah Chocolate) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
              else:
@@ -40,7 +40,7 @@ if cusine == 1:
                           print(f"Here is the recommended Sweet (Chocolate Dream Cake) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
              else:
                 print(f"Your Total Bill is {bill} and Remaining amount is {r_amount}")
-        elif fav ==3:
+        elif fav ==3 :
              bill=11000
              r_amount = budget-bill
              print(f"Dear {name}, \nHave your special Mandi platter with Shamas Special Dumpukht! Along with jumbo Drink + 4 Yakhni Bowls + Raita + Special Salad. \n Your Total Bill is Rs:8500/- (Including Tax)")
@@ -50,13 +50,13 @@ if cusine == 1:
                           print(f"Here is Your Sweet (Lava chocolate with premim Ice Cream) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount- bill2}")
              elif meetha == 2:
                           bill2 = 1500:
-                          print(f"Here is Your Sweet (Browniet) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
+                          print(f"Here is Your Sweet (Brownie) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
              elif meetha == 3:
                           bill2 = 2000:
                           print(f"Here is the recommended Sweet (Chocolate Dream Cake) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
              else:
                 print(f"Your Total Bill is {bill} and Remaining amount is {r_amount}")
-        elif fav ==3:
+        elif fav ==5:
              bill=9500
              r_amount = budget-bill
              print(f"Dear {name}, \nHave your Special Creamy Handi with Shamas Special Dumpukht! Along with jumbo Drink + 4 Yakhni Bowls + Raita + Special Salad. \n Your Total Bill is Rs:8500/- (Including Tax)")
@@ -101,7 +101,7 @@ if cusine == 1:
                           print(f"Here is Your Sweet (Meethay Dahi Bhallay) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
              elif meetha == 3:
                           bill2 = 1500:
-                          print(f"Here is the recommended Sweet (Gulaab Jamun with rasmalai fusioned with Ice Cream) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
+                          print(f"Here is the recommended Sweet (Gulaab Jamun with Rasmalai fusioned with Ice Cream) \nYour Total Bill is {bill2+bill} \nHere is your Remaining Amount {r_amount}")
              else:
                 print(f"Your Total Bill is {bill} and Remaining amount is {r_amount}")
         else:
