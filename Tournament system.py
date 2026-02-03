@@ -70,7 +70,7 @@ if tournament_id == 101 or tournament_id == 102 or tournament_id == 103 or tourn
         
         score_qld = random.randint(50, 200)
         print(f"Quetta Gladiators score is {score_qld}")
-        
+         
         if score_khi > score_qld:
             win_score = (score_khi-score_qld)
             print(f"Karachi King Win with score is {win_score}")
